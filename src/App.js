@@ -34,7 +34,7 @@ function App() {
     <div className="App">
       <Song currentSong={currentSong}/>
       <Player audioRef={audioRef} isPlaying={isPlaying} setIsPlaying={setIsPlaying} currentSong={currentSong} setSongInfo={setSongInfo} songInfo={songInfo}/>
-      <Library audioRef={audioRef} songs={songs} setCurrentSong={setCurrentSong}/>
+      <Library audioRef={audioRef} songs={songs} setCurrentSong={setCurrentSong} isPlaying={isPlaying}/>
       <audio onTimeUpdate={timeUpdateHandler} onLoadedMetadata={timeUpdateHandler} ref={audioRef} src={currentSong.audio}></audio>
     </div>
   );
