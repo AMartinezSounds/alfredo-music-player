@@ -34,7 +34,7 @@ function App() {
     setSongInfo({
         ...songInfo,
         currentTime: current, 
-        duration: duration,
+        duration,
         animationPercentage: animation,
     })
   }; 

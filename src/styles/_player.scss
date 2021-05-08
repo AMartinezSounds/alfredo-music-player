@@ -42,9 +42,9 @@ input[type="range"]:focus {
   outline: none;
 }
 
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-}
+// input[type="range"]::-webkit-slider-thumb {
+//   -webkit-appearance: none;
+// }
 
 .track {
   background-color: lightblue;
