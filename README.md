@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://alfredo-martinez-paypi.netlify.app
+- Live Site URL: https://alfredo-audioplayer.web.app/
 
 ## My process
 
@@ -45,11 +45,9 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Gatsby](https://www.gatsbyjs.com) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-- [react-reveal](https://www.react-reveal.com) - For animation
-- [Formik](https://formik.org) - For formulary
-- [Netlify](https://app.netlify.com/teams/alfre-canos13/overview) - Deployment
+- [Sass](https://sass-lang.com) - For styles
+- [Font Awesome](https://fontawesome.com) - For icons
+- [Firebase](https://firebase.google.com) - Deployment
 
 Super interesting project that help me to understand all the basics about React working with hooks. 
 I also learnt about the importance of state management libraries like Redux. Because I managed all the state by passing down props from the top component, and when you have so many props, this method becomes a nightmare.  
